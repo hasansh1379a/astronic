@@ -1,0 +1,31 @@
+@font-face {
+    font-family:vazir;
+    src: url(fonts/Vazir.woff)format(woff);
+}
+body
+{
+    font-family: vazir;
+    direction: ltr;
+}
+.logo {
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.logo img {
+    max-width: 250px; /* Adjust as needed */
+    height: auto;
+}
+.logo-container {
+    position: fixed; /* Position the logo absolutely */
+    top: 50%; /* Center logo vertically */
+    left: 50%; /* Center logo horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    z-index: 100; /* Ensure logo appears on top of content */
+}
+
+.logo-container img {
+    width: 30px; /* Adjust logo size as needed */
+    height: auto;
+    margin: 0;
+}
